@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Personal website of Michael Hellwig</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo">Dr. Michael Hellwig</a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/link2hemi/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://mastodon.online/@hemi" class="icon brands fa-mastodon" target="_blank"><span class="label">Mastodon</span></a></li>	
+										<li><a href="https://github.com/hellwigm" class="icon brands fa-github" target="_blank"><span class="label"><GitHub</span></a></li>
+										<li><a href="https://www.researchgate.net/profile/Michael-Hellwig" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								 
+									<div class="content">
+										<header>
+											<h2>Research activities</h2>
+										</header>
+									</div>
+									
+									<h3>Research projects</h3>						
+									<dl>
+										<dt><strong>Jul 2021 - Jun 2026 </strong></dt>
+										<dd><em>Project leader</em><br />
+										Christian Doppler Research Association (CDG) project
+										<cite>"Josef Ressel Center for Robust Decision Making"</cite>.<br />
+										The project page is available <a href="https://www.fhv.at/rodec" target="_blank" >here</a></strong>.</dd><br />
+										
+										<dt><strong>Jan 2021 - Dec 2023</strong></dt>
+										<dd><em>Project leader</em><br />
+										OEAD Austria's Agency for Education and Internationalisation networking project
+										<cite>"Collective Evolution Strategies for Learning on Non-Euclidean Data"</cite>.<br />
+										A brief project info is available <a href="https://www.fhv.at/forschung/business-informatics/projekte/nicht-euklidischen-daten/" target="_blank" >here</a></strong> (german only).</dd><br />	
+										
+										<dt><strong>Jun 2020 - Mar 2021</strong></dt>
+										<dd><em>Project team member</em><br />
+										Austrian Research Promotion Agency (FFG) project <cite>"Austrian Center for Digital Production"</cite>. <br />
+										Lead of subproject <cite>"Natural Language Processing for Product Safety Risk Assessment"</cite>. <br />
+										</dd><br />	
+										
+										<dt><strong>Jan 2020 - Dec 2021</strong></dt>
+										<dd><em>Project team member</em><br />
+										Interreg Central Europe (European Reginal Development Fund) project
+										<cite>"4STEPS - Towards the application of Industry 4.0 in SMEs"</cite>.<br />
+										A brief project page is available <a href="https://www.fhv.at/dih-biih/" target="_blank" >here</a></strong>.</dd><br />									
+									
+										<dt><strong>Jan 2020 - Dec 2020</strong></dt>
+										<dd><em>Project team member</em><br />
+										Interreg BayAut (European Reginal Development Fund) project
+										<cite>"DataKMU: Networking and Knowledge Transfer in Data Science"</cite>.<br />
+										A first project page is available <a href="https://www.digital.uni-passau.de/en/project-details/forschungsprojekt/interreg-verbund-datakmu-datenanalyse-ohne-grenzen/?tx_converis_pi1[overrideuid]=3808&amp;cHash=2230bc895b448743d7c7f3dd4be9e061" target="_blank" >here</a></strong>.</dd><br />
+									
+										<dt><strong>Oct 2016 - Dec 2019</strong></dt>
+										<dd><em>Postdoctoral researcher</em><br />
+										Austrian Science Fund (FWF) project <cite>"Evolution Strategies for Constrained Optimization"</cite>.<br />
+										For detailed information, refer to the <a href="https://homepages.fhv.at/hgb/fwf-project3.html" target="_blank"><strong>project page</strong></a> or have a look at the <a style="color: #ff6600;" href="https://homepages.fhv.at/hemi/wp-content/uploads/2018/11/18_PPE_Forschungsposter-A1.pdf" target="_blank" >project poster</a></strong></span>.</dd><br />
+										
+										<dt><strong>June 2015 - Sep 2016</strong></dt>
+										<dd><em>Research associate </em><br />
+										Austrian Research Promotion Agency (FFG) project <cite>"AEDA - Advanced Engineering Design Automation"</cite>.<br />
+										</dd><br />
+										
+										<dt><strong>Apr 2011 - Mar 2015</strong></dt>
+										<dd><em>Research associate </em><br />
+										Austrian Science Fund (FWF) project <cite>"Evolutionary and Other Direct Search Methods in the Presence of Noise II, Analysis and Design"</cite>.<br />
+										For detailed information, refer to the <a href="https://homepages.fhv.at/hgb/fwf-project2.html" target="_blank"><strong>project page</strong></a>.</span>.<br /> </dd>
+										<br />
+									<dl>
+									
+		<p>							
+	<h3><strong>Scientific reviewer for the following journals</strong><!--more--></h3>
+<ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li><strong><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235" target="_blank" rel="noopener noreferrer">IEEE Transactions on Evolutionary Computation</a></strong></li>
+ 	<li><strong><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036" target="_blank" rel="noopener noreferrer">IEEE Transactions on Cybernetics</a></strong></li>
+ 	<li><strong><a href="https://www.journals.elsevier.com/swarm-and-evolutionary-computation/" target="_blank" rel="noopener noreferrer">Elsevier Swarm and Evolutionary Computation</a></strong></li>
+ 	<li><strong><a href="https://www.journals.elsevier.com/theoretical-computer-science/" target="_blank" rel="noopener noreferrer">Elsevier Theoretical Computer Science</a></strong></li>
+ 	<li><a href="https://www.mdpi.com/journal/applsci" target="_blank" rel="noopener noreferrer"><strong>MDPI Applied Sciences</strong></a></li>
+ 	<li><a href="https://www.mdpi.com/journal/mathematics" target="_blank" rel="noopener noreferrer"> <strong>MDPI Mathematics</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p style="padding-left: 360px; text-align: center;"><strong><span style="color: #ff9900;"><a style="outline-width: 0px !important; user-select: auto !important; color: #ff9900;" href="/research/publons.html">see Publons Review Counts</a></span></strong></p>
+</p>
+<h3><strong>Programm committee member of</strong><!--more--></h3>
+<ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li style="list-style-type: none;">
+<ul>
+ 	<li><strong>ACM</strong> Genetic and Evolutionary Computation Conference (<strong>GECCO</strong>) <a href="http://gecco-2017.sigevo.org" target="_blank" rel="noopener noreferrer">2017</a>,&nbsp;<a href="http://gecco-2018.sigevo.org" target="_blank" rel="noopener noreferrer">2018</a>,&nbsp;<a style="outline-width: 0px !important; user-select: auto !important;" href="https://gecco-2019.sigevo.org" target="_blank">2019</a>, <a style="outline-width: 0px !important; user-select: auto !important;" href="https://gecco-2020.sigevo.org" target="_blank">2020</a>, and <a style="outline-width: 0px !important; user-select: auto !important;" href="https://gecco-2021.sigevo.org" target="_blank">2021</a></li>
+ 	<li><strong>IEEE</strong> Congress on Evolutionary Computation (<strong>CEC</strong>) <a href="http://www.ecomp.poli.br/~wcci2018/" target="_blank" rel="noopener noreferrer">2018</a>, <a href="http://cec2019.org/" target="_blank">2019</a>, <a href="http://wcci2020.org/" target="_blank">2020</a>, and <a href="https://cec2021.mini.pw.edu.pl/" target="_blank">2021</a></li>
+ 	<li><strong>ACM</strong> Workshop on Foundations of Genetic Algorithms (<strong>FOGA</strong>) <a href="https://fhv.at/foga2021" target="_blank" rel="noopener noreferrer">2021</a></li>
+ 	<li>International Data Science Conference (<strong>iDSC</strong>) <a href="https://idsc.at/" target="_blank" rel="noopener noreferrer">2020</a> and <a href="https://idsc.at/" target="_blank" rel="noopener noreferrer">2021</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+						 
+
+							
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="research.html">Research activities</a></li>
+										<li><a href="lecture.html">Lectures</a></li>
+										<li><a href="cv.html">Curriculum Vitae</a></li>
+										<li><a href="publications.html">Publications</a></li>
+										<li><a href="dwnlds.html">Downloads</a></li>
+									</ul>
+								</nav>
+
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">michael.hellwig@fhv.at</a></li>
+										<li class="icon solid fa-phone">+43 (0)5572 792 7112</li>
+										<li class="icon solid fa-home">FH Vorarlberg <br /> 
+											University of Applied Sciences<br />
+											Research Center Business Informatics<br />
+											<a href="images/pic02.jpg"> Room S012</a><br />
+											Campus V, Hochschulstr. 1<br />
+											6850 Dornbirn, Austria
+										</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Dr. Michael Hellwig. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

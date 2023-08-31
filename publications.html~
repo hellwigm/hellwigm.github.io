@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Personal website of Michael Hellwig</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo">Dr. Michael Hellwig</a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/link2hemi/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://mastodon.online/@hemi" class="icon brands fa-mastodon" target="_blank"><span class="label">Mastodon</span></a></li>	
+										<li><a href="https://github.com/hellwigm" class="icon brands fa-github" target="_blank"><span class="label"><GitHub</span></a></li>
+										<li><a href="https://www.researchgate.net/profile/Michael-Hellwig" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+
+									</ul>
+								</header>
+			
+							<!-- Banner  -->
+									<div class="content">
+										<header>
+											<h2>Publications</h2>
+										</header>
+									</div>
+
+							<p> The following lists show my publications (peer-revied/non-peer-reviewed) in chronological order. My articles and corresponding citation counts can also be found on <a href="https://scholar.google.com/citations?user=W1nCfR8AAAAJ&hl=de" >Google Scholar</a>. </p>
+							<!-- Section -->
+						 	
+									<h4>Peer-reviewed</b></h4>
+<ul>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2020b).<br /> 
+	<strong>A Modified Matrix Adaptation Evolution Strategy with Restarts for Constrained Real-World Problems.</strong><br /> 
+	In 2020 IEEE Congress on Evolutionary Computation (CEC), pages 1–8,
+	Glasgow. IEEE. <a href="https://doi.org/10.1109/CEC48606.2020.9185566">https://doi.org/10.1109/CEC48606.2020.9185566</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2020a).<br /> <strong>Analyzing Design Principles for Competitive
+	Evolution Strategies in Constrained Search Spaces.</strong><br /> Transactions on
+	Evolutionary Learning and Optimization, pages 1–40. under review</p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Spettel, P.,
+	Beyer, H.-G., and Hellwig, M. (2019).<br /> <strong>Steady State Analysis of a
+	Multi-Recombinative Meta-ES on a Conically Constrained Problem with
+	Comparison to σ SA and CSA.</strong><br /> In Proceedings of the 15<sup>th</sup>
+	ACM/SIGEVO Conference on Foundations of Genetic Algorithms, FOGA
+	’19, pages 43–57, New York, NY, USA. Association for Computing
+	Machinery. <a href="https://doi.org/10.1145/3299904.3340306">https://doi.org/10.1145/3299904.3340306</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M.,
+	Spettel, P., and Beyer, H.-G. (2019b).<br /> <strong>Comparison of Contemporary
+	Evolutionary Algorithms on the Rotated Klee-Minty Problem.</strong><br /> In
+	Proceedings of the Genetic and Evolutionary Computation Conference
+	Companion, GECCO ’19, pages 1879–1887, New York, NY, USA.
+	Association for Computing Machinery.
+	<a href="https://doi.org/10.1145/3319619.3326805">https://doi.org/10.1145/3319619.3326805</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2019a).<br /> <strong>Analysis of a Meta-ES on a Conically
+	Constrained Problem.</strong><br /> In Proceedings of the Genetic and Evolutionary
+	Computation Conference, GECCO ’19, pages 673–681, New York, NY,
+	USA. Association for Computing Machinery.
+	<a href="https://doi.org/10.1145/3321707.3321824">https://doi.org/10.1145/3321707.3321824</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M.,
+	Entner, D., Prante, T., Zăvoianu, A.-C., Schwarz, M., and Fink, K.
+	(2019a).<br /> <strong>Optimization of Ascent Assembly Design Based on a
+	Combinatorial Problem Representation.</strong><br /> In Andrés-Pérez, E.,
+	González, L. M., Periaux, J., Gauger, N., Quagliarella, D., and
+	Giannakoglou, K., editors, Evolutionary and Deterministic Methods
+	for Design Optimization and Control With Applications to Industrial
+	and Societal Problems, volume 49, pages 291–306. Springer
+	International Publishing, Cham.
+	<a href="https://dx.doi.org/10.1007/978-3-319-89890-2_19">https://dx.doi.org/10.1007/978-3-319-89890-2_19</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Zăvoianu,
+	A.-C., Saminger-Platz, S., Entner, D., Prante, T., Hellwig, M.,
+	Schwarz, M., and Fink, K. (2019).<br /> <strong>On the Optimization of 2D Path
+	Network Layouts in Engineering Designs via Evolutionary Computation
+	Techniques.</strong><br /> In Andrés-Pérez, E., González, L. M., Periaux, J.,
+	Gauger, N., Quagliarella, D., and Giannakoglou, K., editors,
+	Evolutionary and Deterministic Methods for Design Optimization and
+	Control With Applications to Industrial and Societal Problems,
+	volume 49, pages 307–322. Springer International Publishing, Cham.
+	<a href="https://dx.doi.org/10.1007/978-3-319-89890-2_20">https://dx.doi.org/10.1007/978-3-319-89890-2_20</a>
+		</p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2018a).<br /> <strong>Benchmarking evolutionary algorithms for
+	single objective real-valued constrained optimization: A critical
+	review.</strong> <br />Swarm and Evolutionary Computation.
+	<a href="https://dx.doi.org/10.1016/j.swevo.2018.10.002">https://dx.doi.org/10.1016/j.swevo.2018.10.002</a>
+		</p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2018b).<br /> <strong>A Linear Constrained Optimization Benchmark
+	for Probabilistic Search Algorithms: The Rotated Klee-Minty Problem.</strong><br />
+	In Fagan, D., Martín-Vide, C., O’Neill, M., and Vega-Rodríguez,
+	M. A., editors, Theory and Practice of Natural Computing, volume
+	11324, pages 139–151. Springer International Publishing, Cham.
+	<a href="https://dx.doi.org/10.1007/978-3-030-04070-3_11">https://dx.doi.org/10.1007/978-3-030-04070-3_11</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2018c).<br /> <strong>A Matrix Adaptation Evolution Strategy for
+	Constrained Real-Parameter Optimization.</strong><br /> In 2018 IEEE Congress on
+	Evolutionary Computation (CEC), pages 1–8, Rio de Janeiro. IEEE.
+	<a href="https://dx.doi.org/10.1109/CEC.2018.8477950">https://dx.doi.org/10.1109/CEC.2018.8477950</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2018d).<br /> <strong>On the steady state analysis of covariance
+	matrix self-adaptation evolution strategies on the noisy ellipsoid
+	model.</strong><br /> Theoretical Computer Science.
+	<a href="https://dx.doi.org/10.1016/j.tcs.2018.05.016">https://dx.doi.org/10.1016/j.tcs.2018.05.016</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Spettel, P.,
+	Beyer, H.-G., and Hellwig, M. (2018).<br /> <strong>A covariance matrix
+	self-adaptation evolution strategy for optimization under linear
+	constraints.</strong><br /> IEEE Transactions on Evolutionary Computation, pages
+	514–524. <a href="https://dx.doi.org/10.1109/TEVC.2018.28719442">https://dx.doi.org/10.1109/TEVC.2018.2871944</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Zăvoianu,
+	A.-C., Saminger-Platz, S., Entner, D., Prante, T., Hellwig, M.,
+	Schwarz, M., and Fink, K. (2018).<br /> <strong>Multi-Objective Optimal Design of
+	Variably Constrained 2D Path Network Layouts with Application to
+	Ascent Assembly Engineering.</strong><br /> Journal of Mechanical Design.
+	<a href="https://dx.doi.org/10.1115/1.4039009">https://dx.doi.org/10.1115/1.4039009</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Beyer, H.-G.
+	and Hellwig, M. (2017).<br /> <strong>Analysis of the pcCMSA-ES on the Noisy
+	Ellipsoid Model.</strong><br /> In Proceedings of the Genetic and Evolutionary
+	Computation Conference, GECCO ’17, pages 689–696, New York, NY,
+	USA. ACM. <a href="https://dx.doi.org/10.1145/3071178.3079195">https://dx.doi.org/10.1145/3071178.3079195</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M.
+	(2017).<br /> <strong>Analysis of mutation strength adaptation within evolution
+	strategies on the ellipsoid model and methods for the treatment of
+	fitness noise.</strong><br /> PhD thesis, Ulm University.
+	<a href="https://dx.doi.org/10.18725/OPARU-4253">https://dx.doi.org/10.18725/OPARU-4253</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2016a).<br /> <strong>Evolution Under Strong Noise: A Self-Adaptive
+	Evolution Strategy Can Reach the Lower Performance Bound - The
+	pcCMSA-ES.</strong><br /> In Handl, J., Hart, E., Lewis, P. R.,López-Ibánez, M.,
+	Ochoa, G., and Paechter, B., editors, Parallel Problem Solving from
+	Nature – PPSN XIV: 14th International Conference, Edinburgh, UK,
+	September 17-21, 2016, Proceedings, pages 26–36. Springer
+	International Publishing, Cham. 
+	<a href="https://dx.doi.org/10.1007/978-3-319-45823-6_3">https://dx.doi.org/10.1007/978-3-319-45823-6_3</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2016b).<br /> <strong>Mutation strength control via meta evolution
+	strategies on the ellipsoid model.</strong><br /> Theoretical Computer Science,
+	623:160–179.  <a href="https://dx.doi.org/10.1016/j.tcs.2015.12.011">https://dx.doi.org/10.1016/j.tcs.2015.12.011</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Beyer, H.-G.
+	and Hellwig, M. (2016).<br /> <strong>The Dynamics of Cumulative Step Size
+	Adaptation on the Ellipsoid Model.</strong><br /> Evolutionary Computation,
+	24(1):25–57.<br /> <a href="https://dx.doi.org/10.1162/EVCO_a_00142">https://dx.doi.org/10.1162/EVCO_a_00142</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Arnold, D. V. (2016).<br /> <strong>Comparison of Constraint-Handling Mechanisms
+	for the (1, λ)-ES on a Simple Constrained Problem.</strong><br /> Evolutionary
+	Computation, 24(1):1–23.  <a href="https://dx.doi.org/10.1162/EVCO_a_00139">https://dx.doi.org/10.1162/EVCO_a_00139</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Beyer, H.-G.
+	and Hellwig, M. (2013).<br /> <strong>Controlling population size and mutation
+	strength by meta-ES under fitness noise.</strong><br /> In Neumann, F. and Jong, K.
+	A. D., editors, Proceedings of the twelfth workshop on Foundations
+	of genetic algorithms XII, FOGA XII, pages 11–24. ACM. 
+	<a href="https://dx.doi.org/10.1145/2460239.2460242">https://dx.doi.org/10.1145/2460239.2460242</a></p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Beyer, H.-G.
+	and Hellwig, M. (2012).<br /> <strong>Mutation strength control by meta-ES on the
+	sharp ridge.</strong><br /> In Soule, T. and Moore, J. H., editors, Genetic and
+	Evolutionary Computation Conference, GECCO ’12, Philadelphia, USA,
+	GECCO 2012, pages 305–312. ACM. 
+	<a href="https://dx.doi.org/10.1145/2330163.2330208">https://dx.doi.org/10.1145/2330163.2330208</a>
+		</p>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M.
+	(2009).<br /> <strong>Multikriterielle Optimierung mittels adaptiver Blocknormen.</strong><br />
+	Diplomarbeit im Studiengang Mathematik, Fachbereich Mathematik der
+	Technischen Universität Dortmund, Dortmund.</p>
+	<p style="margin-bottom: 1in; line-height: 130%"></p>
+</ul>
+
+
+
+<h4 style="margin-bottom: 0.2in; line-height: 130%"><b>Non-peer-reviewed</b></h4>
+
+	<ul>
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig, M. and
+	Beyer, H.-G. (2019b).<br /> <strong>Evolutionsstrategien zur Optimierung unter
+	Nebenbedingungen.</strong><br /> In Forschungsforum der österreichischen
+	Fachhochschulen - FFH Open Access Repository. Available via
+	<a href="http://ffhoarep.fh-ooe.at/handle/123456789/1214">http://ffhoarep.fh-ooe.at/handle/123456789/1214</a></p> 
+	
+	<li><p style="margin-bottom: 0.2in; line-height: 130%">Hellwig,
+	Michael and Beyer, Hans-Georg (2015).<br /> <strong>Technical Report: Population
+	Size Control of CMSA-ES for Noisy Optimization Using Time Series
+	Analysis.</strong><br />
+	<a href="http://www.fhv.at/media/pdf/forschung/prozess-und-produktengineering/working-papers/working-papers-2015">http://www.fhv.at/media/pdf/forschung/prozess-und-produktengineering/working-papers/working-papers-2015</a></p>
+</ul>
+								 
+
+							
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="research.html">Research activities</a></li>
+										<li><a href="lecture.html">Lectures</a></li>
+										<li><a href="cv.html">Curriculum Vitae</a></li>
+										<li><a href="publications.html">Publications</a></li>
+										<li><a href="dwnlds.html">Downloads</a></li>
+									</ul>
+								</nav>
+
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:michael.hellwig@fhv.at"> michael.hellwig@fhv.at </a></li>
+										<li class="icon solid fa-phone">+43 (0)5572 792 7112</li>
+										<li class="icon solid fa-home">FH Vorarlberg <br /> 
+											University of Applied Sciences<br />
+											Research Center Business Informatics<br />
+											Room V621 <br />
+											Campus V, Hochschulstr. 1<br />
+											6850 Dornbirn, Austria
+										</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Dr. Michael Hellwig. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

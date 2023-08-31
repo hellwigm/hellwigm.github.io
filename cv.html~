@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Personal website of Michael Hellwig</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo">Dr. Michael Hellwig</a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/link2hemi/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://mastodon.online/@hemi" class="icon brands fa-mastodon" target="_blank"><span class="label">Mastodon</span></a></li>	
+										<li><a href="https://github.com/hellwigm" class="icon brands fa-github" target="_blank"><span class="label"><GitHub</span></a></li>
+										<li><a href="https://www.researchgate.net/profile/Michael-Hellwig" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+
+									</ul>
+								</header>
+			
+							<!-- Banner  -->
+									<div class="content">
+										<header>
+											<h2>Curriculum vitae</h2>
+										</header>
+									</div>
+
+
+							<!-- Section -->
+						 	
+									<dl>
+									<dt><strong>Jul 2021 - today</strong></dt>
+									<dd>Director of the <a href="https://www.fhv.at/rodec">Josef Ressel Centre for Robust Decision Making</a><br />
+									Research Center Business Informatics, FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />
+									
+									<dt><strong>Jul 2021 - today</strong></dt>
+									<dd>Senior Scientist in Computer Science (Optimization / Machine Learning)<br />
+									Research Center Business Informatics, FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />
+								
+									<dt><strong>Sep 2020 - today</strong></dt>
+									<dd>Lecturer of Business Mathematics and Statistics<br />
+									University of Liechtenstein, Vaduz, Principality of Liechtenstein.</dd><br />
+
+									<dt><strong>June 2019</strong></dt>
+									<dd>Workshop on teaching principles, "Blended Learning with Moodle & Co", Österreichische Fachhochschul-Konferenz (FHK), Wien.</dd><br />
+
+									<dt><strong>May 2018</strong></dt>
+									<dd>Workshop on teaching principles, "Kompetenzorientiert Prüfungen gestalten und Leistungen bewerten", 
+									Österreichische Fachhochschul-Konferenz (FHK), Wien.</dd><br />
+
+									<dt><strong>Jan 2018</strong></dt>
+									<dd>Workshop on teaching principles, "Hochschuldidaktik II", Österreichische Fachhochschul-Konferenz (FHK), Wien.</dd><br />
+
+									<dt><strong>Apr 2017</strong></dt>
+									<dd>Workshop on teaching principles, "Hochschuldidaktik I", Österreichische Fachhochschul-Konferenz (FHK), Wien.</dd><br />
+
+									<dt><strong>Jan 2017</strong></dt>
+									<dd>Thesis defense and Graduation (Dr. rer. nat.)<br />
+									Institute of Computer Science, Faculty of Engineering, Computer Science, and Psychology, Ulm University, Ulm, Germany.<br />
+									Thesis title: <cite><strong>Analysis of Mutation Strength Adaptation within 
+									Evolution Strategies on the Ellipsoid Model and Methods for the Treatment of Fitness Noise</strong></cite></dd><br />
+
+									<dt><strong>Oct 2016 - Jun 2021</strong></dt>
+									<dd>Post-doctoral researcher in Computer Science (Evolutionary Algorithms / Optimization)<br />
+									Research Center for Process and Product Engineering, FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />
+
+									<dt><strong>Sep 2015 - today</strong></dt>
+									<dd>Lecturer of Mathematics<br />
+									FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />
+
+									<dt><strong>Feb 2015 - Dec 2020</strong></dt>
+									<dd>Lecturer of Mathematics and Physics<br />
+									Higher Education programs, Schloss Hofen, Lochau, Austria.</dd><br />
+
+									<dt><strong>September 2014</strong></dt>
+									<dd>Workshop on Information Geometry in Learning and Optimization,
+									University of Copenhagen, Copenhagen, Denmark.</dd><br />
+
+									<dt><strong>May 2013 - Jun 2013</strong></dt>
+									<dd>Visiting Researcher<br />
+									Department of Computer Sciences, Dalhousie University, Halifax, Canada.</dd><br />
+
+									<dt><strong>Apr 2011 - Sep 2016</strong></dt>
+									<dd>Research assistant in Computer Science (Evolutionary Algorithms / Optimization),
+									Research Center for Process and Product Engineering, FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />
+
+									<dt><strong>Apr 2010 - Mar 2011 </strong></dt>
+									<dd>Mathematician in the Actuarial Department and Product Management<br />
+									PrismaLife AG, Ruggell, Fürstentum Liechtenstein.</dd><br />
+
+									<dt><strong>Dec 2009</strong><br />
+									<dd>Diploma (MS) degree in Mathematics (Dipl.-Math.)<br />
+									Faculty of Mathematics, TU Dortmund University, Dortmund, Germany.<br />
+									Thesis title: <cite><strong>Multikriterielle Optimierung mittels adaptiver Blocknormen</strong></cite></dd><br />
+
+									<dt><strong>Apr 2007 - Jan 2009 </strong></dt>
+									<dd>Student Assistant<br />
+									Tutorials to the lectures "Advanced Mathematics for Engineering II and III"
+									TU Dortmund University, Dortmund, Germany.</dd><br />
+
+									<dt><strong>Oct 2003 - Nov 2009</strong></dt>
+									<dd>Study of Mathematics<br />
+									Major Field of Studies: Mathematics with focus on Nonlinear Optimization
+									Minor Field of Studies: Business Studies with focus on Operations Research
+									TU Dortmund University, Dortmund, Germany.	</dd><br />
+
+									</dl>
+								 
+
+							
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="research.html">Research activities</a></li>
+										<li><a href="lecture.html">Lectures</a></li>
+										<li><a href="cv.html">Curriculum Vitae</a></li>
+										<li><a href="publications.html">Publications</a></li>
+										<li><a href="dwmlads.html">Downloads</a></li>
+									</ul>
+								</nav>
+
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">michael.hellwig@fhv.at</a></li>
+										<li class="icon solid fa-phone">+43 (0)5572 792 7112</li>
+										<li class="icon solid fa-home">FH Vorarlberg <br /> 
+											University of Applied Sciences<br />
+											Research Center Business Informatics<br />
+											<a href="images/pic02.jpg"> Room S012</a><br />
+											Campus V, Hochschulstr. 1<br />
+											6850 Dornbirn, Austria
+										</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Dr. Michael Hellwig. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
