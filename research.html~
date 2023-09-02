@@ -42,6 +42,12 @@
 									
 									<h3>Research projects</h3>						
 									<dl>
+										<dt><strong>Apr 2023 - Mar 2027 </strong></dt>
+										<dd><em>Project leader</em><br />
+										Interreg ABH project
+										<cite>"IoT Sustainability Lab"</cite>.<br />
+										The project page will soon be available <a href="https:// " target="_blank" >here</a></strong>.</dd><br />
+									
 										<dt><strong>Jul 2021 - Jun 2026 </strong></dt>
 										<dd><em>Project leader</em><br />
 										Christian Doppler Research Association (CDG) project
@@ -152,17 +158,17 @@
 
 
 							<!-- Section -->
-								<section>
+							<section>
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">michael.hellwig@fhv.at</a></li>
+										<li class="icon solid fa-envelope"><a href="mailto:michael.hellwig@fhv.at"> michael.hellwig@fhv.at </a></li>
 										<li class="icon solid fa-phone">+43 (0)5572 792 7112</li>
 										<li class="icon solid fa-home">FH Vorarlberg <br /> 
 											University of Applied Sciences<br />
 											Research Center Business Informatics<br />
-											<a href="images/pic02.jpg"> Room S012</a><br />
+											Room V621 <br />
 											Campus V, Hochschulstr. 1<br />
 											6850 Dornbirn, Austria
 										</li>
