@@ -43,6 +43,20 @@
 							<!-- Section -->
 						 	
 									<dl>
+									<dt><strong>Jan 2022</strong></dt>
+									<dd>Project lead for IoT Sustainability Innovation Lab<br />
+									funded by INterreg ABH, FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />										
+									
+									
+									<dt><strong>Jan 2022</strong></dt>
+									<dd>Open Science Ambassador (within RUN-EU)<br />
+									FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />		
+									
+									<dt><strong>Sep 2021</strong></dt>
+									<dd>Co-Organizer and PC Chair of the
+ 									<a href="https://www.fhv.at/foga2021">16th International ACM/SIGEVO Conference on the Foundations of Genetic Algorithms (FOGA 2021)</a><br />
+									FH Vorarlberg University of Applied Sciences and Online, Dornbirn, Austria.</dd><br />						
+									
 									<dt><strong>Jul 2021 - today</strong></dt>
 									<dd>Director of the <a href="https://www.fhv.at/rodec">Josef Ressel Centre for Robust Decision Making</a><br />
 									Research Center Business Informatics, FH Vorarlberg University of Applied Sciences, Dornbirn, Austria.</dd><br />
@@ -147,17 +161,17 @@
 
 
 							<!-- Section -->
-								<section>
+							<section>
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">michael.hellwig@fhv.at</a></li>
+										<li class="icon solid fa-envelope"><a href="mailto:michael.hellwig@fhv.at"> michael.hellwig@fhv.at </a></li>
 										<li class="icon solid fa-phone">+43 (0)5572 792 7112</li>
 										<li class="icon solid fa-home">FH Vorarlberg <br /> 
 											University of Applied Sciences<br />
 											Research Center Business Informatics<br />
-											<a href="images/pic02.jpg"> Room S012</a><br />
+											Room V621 <br />
 											Campus V, Hochschulstr. 1<br />
 											6850 Dornbirn, Austria
 										</li>
