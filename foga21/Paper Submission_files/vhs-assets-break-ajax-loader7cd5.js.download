@@ -1,0 +1,72 @@
+(function ($) {
+    $.breakAjaxLoader = function (options) {
+        var defaults = {
+                'lang': 'de'
+            },
+            plugin = this;
+
+        options = options || {};
+
+
+        plugin.init = function () {
+            var settings = $.extend({}, defaults, options);
+            settings.url = settings.url.replace(/\/$/, "");
+
+            $.data(document, 'breakAjaxLoader', settings);
+        };
+
+        plugin.init();
+        return plugin;
+    };
+
+    $.breakAjaxLoader.load = function(urlPart, params, callback) {
+        var settings = $.data(document, 'breakAjaxLoader');
+        $.ajax({
+            url: settings.url + '/' + urlPart + '/',
+            dataType: 'json',
+            data: $.extend({}, settings.queryParams, params),
+            success: function(data) {
+                callback(data);
+            }
+        });
+    };
+
+    $.breakAjaxLoader.getQueryParams = function() {
+        var hash = window.location.hash,
+            href = window.location.href,
+            url = href.substring(0, href.indexOf(hash) > 0 ? href.indexOf(hash) : undefined),
+            params = {};
+
+        hash = hash.substr(1);
+        if (hash.indexOf('!') == 0) {
+            hash = hash.substr(1);
+        }
+        hash = hash.split('/');
+
+        for (var i = 0; i < hash.length; i+=2) {
+            params[hash[i]] = hash[i+1];
+        }
+
+        return {
+            url: url,
+            params: params
+        };
+    };
+
+    $.breakAjaxLoader.pushHistory = function(params) {
+        var currentParams = this.getQueryParams(),
+            paramsUrl = '';
+
+        if (typeof params != 'object') {
+            params = {}
+        }
+
+        $.each(params, function(name, value){
+            paramsUrl += name + '/' + value + '/';
+        });
+
+        history.pushState(null, '', currentParams.url + '#!' + paramsUrl);
+    }
+
+}(jQuery));
+

@@ -1,0 +1,31 @@
+$(document).ready(function() {
+	var $grid_cal = $('#grid-cal');
+	$grid_cal.imagesLoaded( function() {
+		$sizer = $grid_cal.find('.shuffle__sizer');
+		$grid_cal.shuffle({
+			itemSelector: '.grid__brick',
+			sizer: $sizer
+		});
+	});
+
+	/* Auskommentiert, weil sonst Sortierung nicht stimmt */
+	/*var $grid_news = $('#grid-news');
+	$grid_news.imagesLoaded( function() {
+		$sizer = $grid_news.find('.shuffle__sizer');
+		$grid_news.shuffle({
+			itemSelector: '.grid__brick',
+			sizer: $sizer
+		});
+	});*/
+
+	/* Auskommentiert, weil sonst Sortierung nicht stimmt */
+	/*var $grid_events = $('#grid-events');
+	$grid_events.imagesLoaded( function() {
+		$sizer = $grid_events.find('.shuffle__sizer');
+		$shuffled = $grid_events.shuffle({
+			itemSelector: '.grid__brick',
+			sizer: $sizer
+		});
+	});*/
+});
+

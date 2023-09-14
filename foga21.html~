@@ -11,17 +11,19 @@
 <div id="c74052" class="frame frame-default frame-type-duncrowfhv_row2columns frame-layout-0"><div class="row-2-columns"><div class="column"><div id="c87219" class="frame frame-default frame-type-text frame-layout-0"><header><h2 class="">
                 FOGA 2021
             </h2></header><p>The FOGA conference series aims at advancing the understanding of the working principles behind Evolutionary Algorithms and related Randomized Search heuristics. It is a premier event to discuss advances in the theoretical foundations of these algorithms, corresponding tools and frameworks suitable&nbsp;to analyze them, and different aspects of comparing algorithm performance.</p><p><strong>FOGA2021 will be an virtual event.&nbsp;</strong><br> Yet, we will do our&nbsp;best to provide a pleasant and exciting conference experience.</p>
-            <a href="https://hellwigm.github.io/downloads/Brief_Guideline_to_Virtual_Conference_Implementation.pdf"><i class="fa fa-download"></i><strong>&nbsp;Brief Guideline to Virtual Conference Implementation</strong></a>
-            <strong><a href="https://dl.acm.org/doi/proceedings/10.1145/3450218" target="_blank" class="external-link-new-window">FOGA2021 Proceedings in the ACM Digital Library</a></strong>
+           
+			<ul>	           
+         <li>   <a href="https://hellwigm.github.io/downloads/Brief_Guideline_to_Virtual_Conference_Implementation.pdf"><i class="fa fa-download"></i><strong>&nbsp;Brief Guideline to Virtual Conference Implementation</strong></a>
+          </li><li>  <strong><a href="https://dl.acm.org/doi/proceedings/10.1145/3450218" target="_blank" class="external-link-new-window">FOGA2021 Proceedings in the ACM Digital Library</a></strong>
           <!--  <p><strong><a href="https://fhvorarlberg-my.sharepoint.com/:f:/g/personal/hemi_fhv_at/EgWi4TwMbCxLlXgfjYEDeLQBHjXJ5G5Ff49Rn_Q1y8AUJg?e=PRO0Hc" target="_blank" class="external-link-new-window">Pre-Proceedings download</a></strong></p>-->
          <!-- <p><strong><a href="https://hellwigm.github.io/WS2020-RepetitoriumMathematik_Tag1.pdf"><i class="fa fa-download"></i></a></strong>
           -->
-				<p> Note that the FOGA 2021 Proceedings con also be obtained via the <a href="https://sig.sigevo.org/index.html/tiki-index.php?page=HomePage" > ACM SIGEVO website </a> 
-				</br>         
-          <a href="https://hellwigm.github.io/downloads/20_FOGA_Plakat_A4_A3.pdf">&nbsp;Call-for-Papers</a>
-       
+			 </li><li>  The FOGA 2021 Proceedings can also be obtained via the <a href="https://sig.sigevo.org/index.html/tiki-index.php?page=HomePage" > ACM SIGEVO website </a> 
+				         
+          </li><li> <a href="https://hellwigm.github.io/downloads/20_FOGA_Plakat_A4_A3.pdf">&nbsp;Call-for-Papers</a></li>
+       	</ul>
           
-          <p>&nbsp;</p></div></div><div class="column"><div id="c74016" class="frame frame-default frame-type-duncrowcontent_simpleresponsiveimage frame-layout-0 frame-space-before-medium"><a class="responseimglink" href="https://hellwigm.github.io/foga21.html"><img class="img-responsive none " src="./FOGA 2021_files/csm_21_FOGA_Web_1200x800px_208b7328a2.jpg" width="1800" height="1200" alt=""></a></div></div></div></div>
+          </div></div><div class="column"><div id="c74016" class="frame frame-default frame-type-duncrowcontent_simpleresponsiveimage frame-layout-0 frame-space-before-medium"><a class="responseimglink" href="https://hellwigm.github.io/foga21.html"><img class="img-responsive none " src="./FOGA 2021_files/csm_21_FOGA_Web_1200x800px_208b7328a2.jpg" width="1800" height="1200" alt=""></a></div></div></div></div>
 
 
 
