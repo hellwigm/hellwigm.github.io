@@ -64,7 +64,6 @@
 											<div class="content">
 												<h3>University of Liechtenstein (since 2020)</h3>
 												<ul> 
-													<li> Statistics <br /> <strong> Study program: </strong> Business Administration BSc </li><br /> 
 													<li> Business Mathematics <br /> <strong> Study program: </strong> Business Administration BSc </li>
 												</ul>
 											</div>
@@ -88,6 +87,15 @@
 												<li> Analysis <br /> <strong> Study program: </strong> Electrical Engineering Dual BSc </li><br /> 
 												<li> Business Analysis <br /> <strong> Study program: </strong> International Business BSc </li>
 											</ul>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-university"></span>
+											<div class="content">
+												<h3>University of Liechtenstein (since 2020)</h3>
+												<ul> 
+													<li> Statistics <br /> <strong> Study program: </strong> Business Administration BSc </li><br /> 
+												</ul>
 											</div>
 										</article>
 										<article>
@@ -118,12 +126,13 @@
 											<ul>
 											<li> Zech, F. (2023), <strong> </strong><br /> 
 													MSc Thesis, <strong> Study program:</strong> Computer Sciences MSc</li><br /> 
-													<li> Lackinger, P. (2020), <strong> </strong><br /> 
-													MSc Thesis, <strong> Study program:</strong> Computer Sciences MSc</li><br /> 
+													
 												<li> Dreher, F. (2023), <strong></strong><br /> 
 													BSc Thesis, <strong> Study program:</strong> Computer Sciences BSc</li><br /> 
 												<li> Fener, G. (2022), <strong></strong><br /> 
-													BSc Thesis, <strong> Study program:</strong> Computer Sciences BSc</li>
+													BSc Thesis, <strong> Study program:</strong> Computer Sciences BSc</li><br /> 
+													<li> Lackinger, P. (2020), <strong> </strong><br /> 
+													MSc Thesis, <strong> Study program:</strong> Computer Sciences MSc</li>
 											</ul>
 											</div>
 										</article>
