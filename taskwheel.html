@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unwanted Task Wheel</title>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #65727e;
+      --paper: #f7f9fc;
+      --panel: rgba(255, 255, 255, 0.88);
+      --line: #dfe5ec;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at 12% 12%, rgba(255, 212, 59, 0.24), transparent 25%),
+        radial-gradient(circle at 88% 82%, rgba(77, 171, 247, 0.18), transparent 27%),
+        var(--paper);
+    }
+
+    .page {
+      width: min(1160px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    header { max-width: 720px; margin-bottom: 28px; }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(2.5rem, 6vw, 5.4rem); line-height: 0.92; letter-spacing: -0.04em; }
+    .subtitle { margin: 18px 0 0; color: var(--muted); font-size: 1.12rem; line-height: 1.5; }
+
+    .layout { display: grid; grid-template-columns: minmax(290px, 390px) minmax(320px, 1fr); gap: 28px; align-items: stretch; }
+    .panel { padding: 25px; border: 1px solid var(--line); border-radius: 16px; background: var(--panel); box-shadow: 0 18px 45px rgba(23, 32, 42, 0.08); backdrop-filter: blur(8px); }
+    .panel h2 { margin: 0 0 20px; font-size: 1.4rem; }
+    .field-label { display: block; margin: 18px 0 8px; color: var(--muted); font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+    .name-row { display: flex; align-items: center; gap: 10px; margin: 9px 0; }
+    .swatch { flex: 0 0 17px; width: 17px; height: 17px; border-radius: 50%; box-shadow: inset 0 0 0 2px rgba(23, 32, 42, 0.12); }
+    input { width: 100%; border: 1px solid var(--line); border-radius: 8px; padding: 12px 13px; color: var(--ink); background: white; font: inherit; font-size: 1rem; outline: none; transition: border-color 160ms, box-shadow 160ms; }
+    input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.13); }
+    .job-input { margin-top: 4px; }
+    .actions { display: flex; gap: 10px; margin-top: 22px; }
+    button { border: 0; border-radius: 8px; padding: 13px 17px; color: white; background: var(--accent); cursor: pointer; font: 800 0.82rem ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.07em; text-transform: uppercase; transition: transform 160ms, background 160ms; }
+    button:hover:not(:disabled) { background: var(--accent-dark); transform: translateY(-1px); }
+    button:disabled { cursor: wait; opacity: 0.55; }
+    button.secondary { color: var(--ink); background: #edf1f5; }
+    button.secondary:hover:not(:disabled) { background: #e0e6ed; }
+
+    .wheel-panel { display: flex; min-height: 0; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; }
+    .wheel-wrap { position: relative; width: min(100%, 590px); aspect-ratio: 1; }
+    canvas { display: block; width: 100%; height: 100%; }
+    .pointer { position: absolute; top: -4px; left: 50%; z-index: 2; width: 0; height: 0; border-right: 17px solid transparent; border-left: 17px solid transparent; border-top: 35px solid var(--ink); transform: translateX(-50%); filter: drop-shadow(0 3px 2px rgba(0,0,0,.18)); }
+    .result { min-height: 75px; width: 100%; margin-top: 16px; padding: 15px 18px; border-radius: 10px; color: var(--muted); background: #eef2f5; font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.45; }
+    .result strong { display: block; color: var(--ink); font-size: 1.35rem; }
+    .result.winner { color: white; background: var(--ink); }
+    .result.winner strong { color: white; }
+    .hint { margin: 15px 0 0; color: var(--muted); font: 0.8rem ui-sans-serif, system-ui, sans-serif; text-align: center; }
+
+    @media (max-width: 780px) {
+      .page { padding-top: 30px; }
+      .layout { grid-template-columns: 1fr; }
+      .wheel-panel { min-height: 0; order: -1; padding: 16px; }
+      .wheel-wrap { width: min(100%, 500px); }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">A democratic solution to an undemocratic task</p>
+      <h2>Unwanted Task Wheel</h2>
+      <p class="subtitle">Add up to five people. Spin the wheel. Whoever fate chooses takes care of the task.</p>
+    </header>
+
+    <section class="layout">
+      <div class="panel">
+        <h2>Who is playing?</h2>
+        <label class="field-label" for="name-1">Names</label>
+        <div id="name-fields"></div>
+        <label class="field-label" for="job">Unwanted task</label>
+        <input id="job" class="job-input" type="text" value="take out the trash" maxlength="80">
+        <div class="actions">
+          <button id="spin" type="button">Spin the wheel</button>
+          <button id="reset" class="secondary" type="button">Reset</button>
+        </div>
+      </div>
+
+      <div class="panel wheel-panel">
+        <div class="wheel-wrap">
+          <div class="pointer" aria-hidden="true"></div>
+          <canvas id="wheel" aria-label="Random selection wheel"></canvas>
+        </div>
+        <div id="result" class="result" aria-live="polite">Enter at least two names, then spin the wheel.</div>
+        <p class="hint">The selected person is responsible for the unwanted task.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const palette = ["#ff6b6b", "#4dabf7", "#ffd43b", "#69db7c", "#b197fc"];
+    const canvas = document.querySelector("#wheel");
+    const context = canvas.getContext("2d");
+    const fields = document.querySelector("#name-fields");
+    const spinButton = document.querySelector("#spin");
+    const resetButton = document.querySelector("#reset");
+    const jobInput = document.querySelector("#job");
+    const result = document.querySelector("#result");
+    let rotation = 0;
+    let spinning = false;
+
+    for (let index = 0; index < 5; index += 1) {
+      const row = document.createElement("div");
+      row.className = "name-row";
+      row.innerHTML = `<span class="swatch" style="background:${palette[index]}"></span><input id="name-${index + 1}" type="text" maxlength="24" placeholder="Name ${index + 1}" aria-label="Name ${index + 1}">`;
+      fields.appendChild(row);
+    }
+
+    function names() {
+      return [...fields.querySelectorAll("input")].map((input) => input.value.trim()).filter(Boolean);
+    }
+
+    function resizeCanvas() {
+      const size = canvas.getBoundingClientRect().width;
+      const ratio = window.devicePixelRatio || 1;
+      canvas.width = size * ratio;
+      canvas.height = size * ratio;
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      drawWheel();
+    }
+
+    function drawWheel(highlight = -1) {
+      const size = canvas.getBoundingClientRect().width;
+      const center = size / 2;
+      const radius = center - 12;
+      const people = names();
+      context.clearRect(0, 0, size, size);
+      context.save();
+      context.translate(center, center);
+      context.rotate(rotation);
+
+      if (people.length < 2) {
+        context.beginPath();
+        context.arc(0, 0, radius, 0, Math.PI * 2);
+        context.fillStyle = "#e6ebf0";
+        context.fill();
+        context.fillStyle = "#65727e";
+        context.font = "700 16px system-ui, sans-serif";
+        context.textAlign = "center";
+        context.fillText("Add at least two names", 0, 5);
+        context.restore();
+        return;
+      }
+
+      const slice = (Math.PI * 2) / people.length;
+      people.forEach((person, index) => {
+        const start = -Math.PI / 2 + index * slice;
+        const end = start + slice;
+        context.beginPath();
+        context.moveTo(0, 0);
+        context.arc(0, 0, radius, start, end);
+        context.closePath();
+        context.fillStyle = palette[index];
+        context.fill();
+        context.lineWidth = index === highlight ? 8 : 3;
+        context.strokeStyle = index === highlight ? "#17202a" : "#ffffff";
+        context.stroke();
+
+        const labelAngle = start + slice / 2;
+        const labelRadius = radius * 0.62;
+        context.save();
+        context.translate(Math.cos(labelAngle) * labelRadius, Math.sin(labelAngle) * labelRadius);
+        context.rotate(labelAngle + Math.PI / 2);
+        context.fillStyle = "#17202a";
+        context.font = "700 16px system-ui, sans-serif";
+        context.textAlign = "center";
+        context.textBaseline = "middle";
+        context.fillText(person.length > 15 ? `${person.slice(0, 14)}...` : person, 0, 0);
+        context.restore();
+      });
+
+      context.beginPath();
+      context.arc(0, 0, radius * 0.13, 0, Math.PI * 2);
+      context.fillStyle = "#17202a";
+      context.fill();
+      context.fillStyle = "white";
+      context.font = "800 11px system-ui, sans-serif";
+      context.textAlign = "center";
+      context.textBaseline = "middle";
+      context.fillText("GO", 0, 0);
+      context.restore();
+    }
+
+    function setResult(message, winner = false) {
+      result.className = winner ? "result winner" : "result";
+      result.innerHTML = message;
+    }
+
+    function spin() {
+  const people = names();
+
+  if (people.length < 2 || spinning) {
+    setResult("<b>Add at least two names before spinning.</b>");
+    return;
+  }
+
+  spinning = true;
+  spinButton.disabled = true;
+  resetButton.disabled = true;
+
+  setResult("<b>Spinning...</b> The wheel is deciding.");
+
+  const slice = (Math.PI * 2) / people.length;
+
+  // choose a random winning segment
+  const winningIndex = Math.floor(Math.random() * people.length);
+
+  // stop exactly at the center of that segment
+  const finalRotation =
+      Math.PI * 2 * (6 + Math.random() * 2) -
+      (winningIndex + 0.5) * slice;
+
+  const startRotation = rotation;
+  const endRotation = finalRotation;
+
+  const started = performance.now();
+  const duration = 4200;
+
+  function animate(now) {
+    const progress = Math.min((now - started) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 4);
+
+    rotation = startRotation +
+      (endRotation - startRotation) * eased;
+
+    drawWheel();
+
+    if (progress < 1) {
+      requestAnimationFrame(animate);
+    } else {
+
+      rotation = endRotation % (Math.PI * 2);
+
+      // calculate the segment under the needle
+      let needleAngle = (  - rotation);
+
+      needleAngle =
+        ((needleAngle % (Math.PI * 2)) + Math.PI * 2) %
+        (Math.PI * 2);
+
+      const selected =
+        Math.floor(needleAngle / slice);
+
+      drawWheel(selected);
+
+      const job =
+        jobInput.value.trim() || "the unwanted job";
+
+      setResult(
+        `<strong>${escapeHtml(people[selected])}</strong> is responsible for <b>${escapeHtml(job)}</b>.`,
+        true
+      );
+
+      spinning = false;
+      spinButton.disabled = false;
+      resetButton.disabled = false;
+    }
+  }
+
+  requestAnimationFrame(animate);
+}
+
+    function escapeHtml(value) {
+      return value.replace(/[&<>'"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[character]));
+    }
+
+    function reset() {
+      fields.querySelectorAll("input").forEach((input) => { input.value = ""; });
+      jobInput.value = "take out the trash";
+      rotation = 0;
+      drawWheel();
+      setResult("Enter at least two names, then spin the wheel.");
+    }
+
+    fields.addEventListener("input", () => {
+      if (!spinning) {
+        drawWheel();
+        setResult("Enter at least two names, then spin the wheel.");
+      }
+    });
+    spinButton.addEventListener("click", spin);
+    resetButton.addEventListener("click", reset);
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
+  </script>
+</body>
+</html>
